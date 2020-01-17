@@ -1,0 +1,29 @@
+body{
+
+    padding: 0; 
+    margin: 0;
+
+    /* make everything unselectable */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.footer {
+	position: fixed;
+	right: 5em;
+	bottom: 0;
+	width: 100%;
+	color: 000;
+	text-align: right;
+	cursor: default;
+
+	font-family: 'Open Sans light', sans-serif;
+	letter-spacing: 2px;
+    line-height: 10%;
+	font-weight: 300;
+	font-size: 1em;
+ }
