@@ -1,0 +1,32 @@
+body{
+	margin-top: 50vh;
+	padding: 0;   
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  canvas{
+	position:absolute;
+  }
+  
+  #frame{
+	width:400px;
+	height:585px;
+  }
+
+.footer {
+	position: fixed;
+	right: 5em;
+	bottom: 0;
+	width: 100%;
+	color: 000;
+	text-align: right;
+	cursor: default;
+
+	font-family: 'Open Sans light', sans-serif;
+	letter-spacing: 2px;
+    line-height: 10%;
+	font-weight: 300;
+	font-size: 1em;
+ }
