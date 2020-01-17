@@ -1,0 +1,41 @@
+body{
+	margin-top: 50vh;
+	padding: 0;   
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+  }
+
+  canvas {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	height: 50%;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  #frame{
+	width:400px;
+	height:585px;
+  }
+
+.footer {
+	position: fixed;
+	right: 5em;
+	bottom: 0;
+	width: 100%;
+	color: 000;
+	text-align: right;
+	cursor: default;
+	z-index: 99;
+
+	font-family: 'Open Sans light', sans-serif;
+	letter-spacing: 2px;
+    line-height: 10%;
+	font-weight: 300;
+	font-size: 1em;
+ }
