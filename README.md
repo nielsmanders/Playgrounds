@@ -8,16 +8,16 @@
 
 > All prototypes are made using P5.js and have the same formatting to get a similar look and feel for every prototype. The standard format that is being used:
 
-    let canW=450;
-    let canH=450;
+    let canW = 450;
+    let canH = 450;
 
     function setup() {
       createCanvas(canW, canH);
-      noStroke();     //remove the stroke of items
-      blendMode(MULTIPLY);    //combine colors of overlapping items
-      noLoop();     //stop looping of drawing
-      rectMode(CENTER);   //center the canvas in the window
-      angleMode(RADIANS);   //use degrees for angels
+      noStroke();                 //remove the stroke of items
+      blendMode(MULTIPLY);        //combine colors of overlapping items
+      noLoop();                   //stop looping of drawing
+      rectMode(CENTER);           //center the canvas in the window
+      angleMode(RADIANS);         //use degrees for angels
     } 
 
 ## Installation
